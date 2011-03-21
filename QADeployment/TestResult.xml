@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Development\TestDrivenDevelopmentCodeLab\QADeployment\AcceptanceTests.nunit" total="30" errors="0" failures="30" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-03-20" time="20:41:27">
+  <environment nunit-version="2.5.9.10348" clr-version="2.0.50727.5420" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Development\TestDrivenDevelopmentCodeLab\QADeployment" machine-name="ADSIT-MOBILE" user="David" user-domain="Adsit-Mobile" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Development\TestDrivenDevelopmentCodeLab\QADeployment\AcceptanceTests.nunit" executed="True" result="Failure" success="False" time="120.388" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Development\TestDrivenDevelopmentCodeLab\QADeployment\AcceptanceTests.dll" executed="True" result="Failure" success="False" time="120.361" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="AcceptanceTests" executed="True" result="Failure" success="False" time="120.354" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="AcceptanceTests" executed="True" result="Failure" success="False" time="120.345" asserts="0">
+                <results>
+                  <test-suite type="ParameterizedTest" name="TestRomanNumberals" executed="True" result="Failure" success="False" time="90.319" asserts="0">
+                    <results>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(101,&quot;CI&quot;)" executed="True" result="Failure" success="False" time="3.112" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "CI"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(40,&quot;XL&quot;)" executed="True" result="Failure" success="False" time="3.001" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "XL"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(49,&quot;XLIX&quot;)" executed="True" result="Failure" success="False" time="3.001" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "XLIX"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(50,&quot;L&quot;)" executed="True" result="Failure" success="False" time="3.004" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "L"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(51,&quot;LI&quot;)" executed="True" result="Failure" success="False" time="3.013" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "LI"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(90,&quot;XC&quot;)" executed="True" result="Failure" success="False" time="3.000" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "XC"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(99,&quot;XCIX&quot;)" executed="True" result="Failure" success="False" time="3.000" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "XCIX"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(100,&quot;C&quot;)" executed="True" result="Failure" success="False" time="3.009" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "C"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(2,&quot;II&quot;)" executed="True" result="Failure" success="False" time="3.000" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "II"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(20,&quot;XX&quot;)" executed="True" result="Failure" success="False" time="3.001" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "XX"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(499,&quot;CDXCIX&quot;)" executed="True" result="Failure" success="False" time="3.005" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "CDXCIX"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(500,&quot;D&quot;)" executed="True" result="Failure" success="False" time="3.005" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "D"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(501,&quot;DI&quot;)" executed="True" result="Failure" success="False" time="3.000" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "DI"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(900,&quot;CM&quot;)" executed="True" result="Failure" success="False" time="3.004" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "CM"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(999,&quot;CMXCIX&quot;)" executed="True" result="Failure" success="False" time="3.004" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "CMXCIX"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(1000,&quot;M&quot;)" executed="True" result="Failure" success="False" time="3.006" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "M"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(1001,&quot;MI&quot;)" executed="True" result="Failure" success="False" time="3.006" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "MI"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(4999,&quot;MMMMCMXCIX&quot;)" executed="True" result="Failure" success="False" time="3.000" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "MMMMCMXCIX"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(1,&quot;I&quot;)" executed="True" result="Failure" success="False" time="3.000" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "I"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(400,&quot;CD&quot;)" executed="True" result="Failure" success="False" time="3.001" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "CD"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(3,&quot;III&quot;)" executed="True" result="Failure" success="False" time="3.001" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "III"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(4,&quot;IV&quot;)" executed="True" result="Failure" success="False" time="3.001" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "IV"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(5,&quot;V&quot;)" executed="True" result="Failure" success="False" time="3.001" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "V"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(6,&quot;VI&quot;)" executed="True" result="Failure" success="False" time="3.006" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "VI"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(9,&quot;IX&quot;)" executed="True" result="Failure" success="False" time="3.005" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "IX"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(10,&quot;X&quot;)" executed="True" result="Failure" success="False" time="3.011" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "X"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(11,&quot;XI&quot;)" executed="True" result="Failure" success="False" time="3.000" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "XI"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(14,&quot;XIV&quot;)" executed="True" result="Failure" success="False" time="3.001" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "XIV"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(15,&quot;XV&quot;)" executed="True" result="Failure" success="False" time="3.000" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "XV"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="AcceptanceTests.AcceptanceTests.TestRomanNumberals(19,&quot;XIX&quot;)" executed="True" result="Failure" success="False" time="3.001" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: "XIX"
+  But was:  null
+]]></message>
+                          <stack-trace><![CDATA[at AcceptanceTests.AcceptanceTests.TestRomanNumberals(Int32 number, String roman)
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
