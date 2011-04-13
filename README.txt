@@ -1,9 +1,10 @@
 This project is a port of the Java project that Jason Gorman will be using to gather empirical evidence about the costs of TDD.
-You can read about the experiment here http://parlezuml.com/blog/?postid=1021 and here http://parlezuml.com/blog/?postid=1019
+You can read about the experiment here http://www.codemanship.co.uk/parlezuml/blog/?postid=1021 and 
+here http://www.codemanship.co.uk/parlezuml/blog/?postid=1019
 
 You will need to do the Roman Numeral kata twice, several days apart (just so it's not fresh in your mind the second time you do it.)
 	Do it once practicing rigorous TDD. 
-	Then, a few days later, do it without any unit testing at all.
+	Then, at least a few days later, do it without any unit testing at all.
 
 Instructions:
 0. Select either the TDD or non-TDD experiment
