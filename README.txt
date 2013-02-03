@@ -11,14 +11,14 @@ Instructions:
 1. Open up the TestDrivenDevelopmentCodeLab.sln solution
 2. Start a timer.
 3. Write the code to make the Convert method turn each number from 1-4999 into the correct Roman Numeral string.
-4. When you think you're done, open QADeployment\AcceptanceTests.nunit with the NUnit GUI and run the Acceptance Tests.
-	Don't stop the clock while the Acceptance Tests run.
-	DO NOT RUN THE Acceptance Tests UNTIL YOU THINK YOU ARE FINISHED.
+4. When you think you're done, run ThrowItOverTheWall.bat to run the QA verification.
+	Don't stop the clock while QA works.
+	DO NOT RUN GIVE THE CODE TO QA UNTIL YOU THINK YOU ARE FINISHED.
 		Your QA group probably doesn't appreciate getting piles of software that the 
 		developers KNOW doesn't work, now do they?  Also, there is a ~2 minute delay 
-		to get results from the Acceptance Tests, so there's incentive to have it right 
-		before you "throw it over the wall."
-5. If any of the Acceptance Tests fail
+		to get results from their testing, so there's incentive to have it right 
+		before you throw it over the wall.
+5. If any of the QA tests fail
 	Fix them ALL then - only when you think you have fixed all the bugs - go back to step 3.
 6. Stop the timer and record your results.
 7. Wait a few days and repeat the kata using the opposite practice.
