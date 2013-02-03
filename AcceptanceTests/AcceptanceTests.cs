@@ -15,7 +15,13 @@ namespace AcceptanceTests
 		[TestFixtureSetUp]
 		public void SetUpFixture()
 		{
-			Console.Out.WriteLine("Deploying to QA...");
+			Console.Out.WriteLine("^^^ NUnit Startup ^^^");
+			Console.Out.WriteLine("");
+			Console.Out.WriteLine("");
+			Console.Out.WriteLine("");
+			Console.Out.WriteLine("Starting QA verification...");
+            Console.Out.WriteLine("");
+            Console.Out.WriteLine("Deploying to QA...");
 			Thread.Sleep(DeploymentTimeInMilliseconds);
 			Console.Out.WriteLine("QA Team is coordinating and updating their test plans...");
 			Thread.Sleep(CoordinationTimeInMilliseconds);
